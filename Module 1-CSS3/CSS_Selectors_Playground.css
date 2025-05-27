@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#mainHeader {
+    background-color: navy;
+    color: white;
+}
+
+.eventCard {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+h3, p {
+    font-family: sans-serif;
+    color: darkslategray;
+}

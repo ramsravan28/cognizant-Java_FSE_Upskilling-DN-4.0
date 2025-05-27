@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
