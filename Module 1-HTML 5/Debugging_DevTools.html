@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Debug Example</title>
+    <style>
+        .buggy {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+    <script>
+        function buggyScript() {
+            let count = 0;
+            console.log("Initial count:", count);
+            debugger;
+            count += 10;
+            console.log("Updated count:", count);
+        }
+    </script>
+</head>
+<body onload="buggyScript()">
+    <div class="buggy">Box</div>
+</body>
+</html>
