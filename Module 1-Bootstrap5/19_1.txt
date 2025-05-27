@@ -1,0 +1,8 @@
+npm install bootstrap
+
+Import in SCSS:
+
+scss
+Copy
+Edit
+@import "../node_modules/bootstrap/scss/bootstrap";
